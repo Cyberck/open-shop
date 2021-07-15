@@ -1,0 +1,112 @@
+@import 'fonts.css';
+
+
+/* Root start */
+
+:root {
+    --nl: 'NotoSans-Light';
+    --nm: 'NotoSans-Medium';
+    --nr: 'NotoSans-Regular';
+    --ns: 'NotoSans-SemiBold';
+    --body: white;
+    --text: #313131;
+    --dots: #ABABAB;
+    --black: #0C0C0C;
+    --body-text: #BBBBBB;
+    --text-body: #313131;
+    --title: #313131;
+}
+
+.html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--body);
+    color: var(--text);
+    font-family: var(--nr);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+}
+
+.all-btns {
+    background: #313131;
+    color: #ffffff;
+    padding: 12px;
+    font-family: var(--nr);
+    max-width: 190px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    transition: background 500ms, transform 300ms;
+    font-size: 20px;
+}
+
+
+.all-btns:hover {
+    background: #313131;
+    border: 1px solid white;
+    color: white;
+    transform: scale(1.2);
+}
+
+.all-title {
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--text);
+    font-family: var(--nr);
+    margin-bottom: 30px;
+    transition: 1s;
+}
+
+.all-title:hover {
+    transform: translate(50px);
+}
+
+/* root end */
+/* ****************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body: #313131;
+        --text: #ffffff;
+        --dots: #313131;
+        --black: var(--black)
+    }
+
+    .logo {
+        content: url(../images/SVG/Logo\ \ light.svg);
+    }
+
+    .all-btns {
+        color: var(--text);
+        background: #313131;
+    }
+}

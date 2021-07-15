@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'NotoSans-Light';
+    src: url(../fonts/NotoSans-Light.ttf);
+}
+@font-face {
+    font-family: 'NotoSans-Medium';
+    src: url(../fonts/NotoSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url(../fonts/NotoSans-Regular.ttf);    
+}
+
+@font-face {
+    font-family: 'NotoSans-SemiBold';
+    src: url(../fonts/NotoSans-SemiBold.ttf);
+}
